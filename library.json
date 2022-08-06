@@ -4,7 +4,7 @@
     "description": "Kmeiot 1-Head weigher device:This device can be used to scale and weight and control your motors for machines control systems",
     "repository": {
         "type": "git",
-        "url": "https://github.com/adnanelabdullah/Kmestepper.git"
+        "url": "https://github.com/adnanelabdullah/KmeStepper.git"
     },
     "version": "0.1",
     "exclude": "tests",
