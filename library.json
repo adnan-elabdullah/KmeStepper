@@ -1,0 +1,17 @@
+{
+    "name": "Kmestepper",
+    "keywords": "Loadcell, scale, weight,HX711,steppermotor,Dcmotor",
+    "description": "Kmeiot 1-Head weigher device:This device can be used to scale and weight and control your motors for machines control systems",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/adnanelabdullah/Kmestepper.git"
+    },
+    "version": "0.1",
+    "exclude": "tests",
+    "examples": "examples/*/*.ino",
+    "frameworks": "arduino",
+    "platforms": [
+        "atmelavr",
+        "espressif"
+    ]
+}

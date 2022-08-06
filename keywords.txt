@@ -1,0 +1,24 @@
+
+#######################################
+# Syntax Coloring Map For KmeStepper
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+KmeStepper	KEYWORD1
+KmeDc       KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+left					    KEYWORD2
+right					KEYWORD2
+Loadcell					KEYWORD2
+Loadcellbegin					KEYWORD2
+Dcright					KEYWORD2
+Dcleft					KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
