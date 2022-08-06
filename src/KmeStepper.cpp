@@ -26,7 +26,7 @@ void KmeStepper::KmeDc(int pin ,int pin1)
 void KmeStepper::left(int steps,int speed)
 {
   for(int t=0;t<=steps;t++){
-         digitalWrite(step1,LOW);
+     digitalWrite(step1,LOW);
 digitalWrite(step2,HIGH);
 digitalWrite(step3,LOW);
 digitalWrite(step4,HIGH);  
@@ -56,7 +56,7 @@ void KmeStepper::right(int steps,int speed)
 {
   for(int t=0;t<=steps;t++){
 
-    digitalWrite(step1,LOW);
+     digitalWrite(step1,LOW);
 digitalWrite(step2,HIGH);
 digitalWrite(step3,HIGH);
 digitalWrite(step4,LOW);
