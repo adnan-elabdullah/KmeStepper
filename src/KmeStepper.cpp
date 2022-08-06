@@ -26,26 +26,27 @@ void KmeStepper::KmeDc(int pin ,int pin1)
 void KmeStepper::left(int steps,int speed)
 {
   for(int t=0;t<=steps;t++){
-        digitalWrite(step1,HIGH);
+         digitalWrite(step1,LOW);
 digitalWrite(step2,HIGH);
 digitalWrite(step3,LOW);
-digitalWrite(step4,LOW);
+digitalWrite(step4,HIGH);  
 
 delay (speed);
-digitalWrite(step1,LOW);
-digitalWrite(step2,HIGH);
-digitalWrite(step3,HIGH);
-digitalWrite(step4,LOW);    
-delay(speed);
-digitalWrite(step1,LOW);
-digitalWrite(step2,LOW);
-digitalWrite(step3,HIGH);
-digitalWrite(step4,HIGH);      
-delay(speed);
-        digitalWrite(step1,HIGH);
+digitalWrite(step1,HIGH);
 digitalWrite(step2,LOW);
 digitalWrite(step3,LOW);
-digitalWrite(step4,HIGH); 
+digitalWrite(step4,HIGH);
+    
+delay(speed);
+digitalWrite(step1,HIGH);
+digitalWrite(step2,LOW);
+digitalWrite(step3,HIGH);
+digitalWrite(step4,LOW);   
+delay(speed);
+    digitalWrite(step1,LOW);
+digitalWrite(step2,HIGH);
+digitalWrite(step3,HIGH);
+digitalWrite(step4,LOW);
          delay(speed);
  }
   
@@ -55,26 +56,26 @@ void KmeStepper::right(int steps,int speed)
 {
   for(int t=0;t<=steps;t++){
 
-      digitalWrite(step1,LOW);
-digitalWrite(step2,LOW);
-digitalWrite(step3,LOW);
-digitalWrite(step4,HIGH);
+    digitalWrite(step1,LOW);
+digitalWrite(step2,HIGH);
+digitalWrite(step3,HIGH);
+digitalWrite(step4,LOW);
 
 delay (speed);
-digitalWrite(step1,LOW);
+digitalWrite(step1,HIGH);
 digitalWrite(step2,LOW);
 digitalWrite(step3,HIGH);
 digitalWrite(step4,LOW);    
 delay(speed);
-digitalWrite(step1,LOW);
-digitalWrite(step2,HIGH);
-digitalWrite(step3,LOW);
-digitalWrite(step4,LOW);      
-delay(speed);
-        digitalWrite(step1,HIGH);
+digitalWrite(step1,HIGH);
 digitalWrite(step2,LOW);
 digitalWrite(step3,LOW);
-digitalWrite(step4,LOW); 
+digitalWrite(step4,HIGH);      
+delay(speed);
+        digitalWrite(step1,LOW);
+digitalWrite(step2,HIGH);
+digitalWrite(step3,LOW);
+digitalWrite(step4,HIGH); 
          delay(speed);
  }
      
